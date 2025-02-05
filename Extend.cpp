@@ -1,0 +1,29 @@
+#include "Extend.h"
+#include "ui_Extend.h"
+#include "Contract.h"
+#include <QMessageBox>
+
+Extend::Extend(const std::string idr, const std::string idt, QWidget *parent)
+    : QDialog(parent)
+    , idr(idr), idt(idt), ui(new Ui::Extend)
+{
+    ui->setupUi(this);
+}
+
+Extend::~Extend()
+{
+    delete ui;
+}
+
+void Extend::on_Extenbtn_clicked()
+{
+    bool c;
+    int staymont = ui->newRT->text().toInt(&c);
+    if (!c || staymont < 0){
+        QMessageBox::information(this, "Error", "Nhập số tháng không hợp lệ");
+        return;
+    }
+    Contract::extensionContract(staymont, idr, idt);
+    this->close();
+}
+
