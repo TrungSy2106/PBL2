@@ -8,6 +8,7 @@ INCLUDEPATH += \
     $$PWD/src/core \
     $$PWD/src/domain \
     $$PWD/src/presentation/pages/admin \
+    $$PWD/src/presentation/pages/user \
     $$PWD/src/presentation/dialogs \
     $$PWD/src/presentation/statistics \
     $$PWD/src/presentation/windows
@@ -36,6 +37,12 @@ SOURCES += \
     src/presentation/pages/admin/ServicePage.cpp \
     src/presentation/pages/admin/StatisticsPage.cpp \
     src/presentation/pages/admin/TenantPage.cpp \
+    src/presentation/pages/user/UserContractPage.cpp \
+    src/presentation/pages/user/UserDashboardPage.cpp \
+    src/presentation/pages/user/UserPaymentPage.cpp \
+    src/presentation/pages/user/UserProfilePage.cpp \
+    src/presentation/pages/user/UserRoomBookingPage.cpp \
+    src/presentation/pages/user/UserServicePage.cpp \
     src/presentation/dialogs/AddService.cpp \
     src/presentation/dialogs/Addroom.cpp \
     src/presentation/dialogs/Addroomtype.cpp \
