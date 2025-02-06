@@ -1,0 +1,8 @@
+type_ID,name,description,price
+5
+RT.01,Standard,Phong tieu chuan cho mot nguoi,2500000
+RT.02,Deluxe,Phong rong co ban cong,3200000
+RT.03,Twin,Phong hai giuong don,3800000
+RT.04,Studio,Phong studio co khu bep,4500000
+RT.05,Premium,Phong cao cap day du noi that,5500000
+

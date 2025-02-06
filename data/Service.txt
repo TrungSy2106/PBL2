@@ -1,0 +1,9 @@
+service_ID,name,unit_price,description,is_mandatory
+6
+S.001,Electricity,3500,Tien dien theo kWh,1
+S.002,Water,18000,Tien nuoc theo khoi,1
+S.003,Internet,150000,Internet hang thang,1
+S.004,Parking,100000,Phi giu xe hang thang,0
+S.005,Laundry,30000,Giat say theo lan,0
+S.006,Cleaning,80000,Ve sinh phong theo lan,0
+

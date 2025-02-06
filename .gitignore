@@ -1,0 +1,35 @@
+# Qt Creator user settings
+*.pro.user
+*.pro.user.*
+.qtcreator/
+
+# Out-of-source build directories
+build/
+build-*/
+cmake-build-*/
+
+# qmake generated files
+.qmake.stash
+Makefile
+Makefile.*
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# Compiler and linker output
+*.o
+*.obj
+*.exe
+*.dll
+*.a
+*.so
+*.dylib
+debug/
+release/
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
