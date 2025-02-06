@@ -7,6 +7,7 @@ CONFIG += c++17
 INCLUDEPATH += \
     $$PWD/src/core \
     $$PWD/src/domain \
+    $$PWD/src/presentation/pages/admin \
     $$PWD/src/presentation/dialogs \
     $$PWD/src/presentation/statistics \
     $$PWD/src/presentation/windows
@@ -28,6 +29,13 @@ SOURCES += \
     src/domain/Service.cpp \
     src/domain/ServiceUsage.cpp \
     src/domain/Tenant.cpp \
+    src/presentation/pages/admin/AccountPage.cpp \
+    src/presentation/pages/admin/BillingPage.cpp \
+    src/presentation/pages/admin/ReservationPage.cpp \
+    src/presentation/pages/admin/RoomPage.cpp \
+    src/presentation/pages/admin/ServicePage.cpp \
+    src/presentation/pages/admin/StatisticsPage.cpp \
+    src/presentation/pages/admin/TenantPage.cpp \
     src/presentation/dialogs/AddService.cpp \
     src/presentation/dialogs/Addroom.cpp \
     src/presentation/dialogs/Addroomtype.cpp \
